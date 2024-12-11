@@ -1,0 +1,50 @@
+[global]
+    monitor = 0
+    geometry = "512x8-8+31"
+    origin = top-right
+    offset = (4, 24)
+    indicate_hidden = yes
+    shrink = no
+    transparency = 0
+    notification_height = 0
+    separator_height = 0
+    padding = 4
+    horizontal_padding = 8
+    frame_width = 2
+    frame_color = "#ffffff"
+    separator_color = #b0bec5
+    sort = yes
+    font = 3270 Nerd Font 14
+    vertical_alignment = bottom
+    stack_duplicates = true
+    hide_duplicate_count = true 
+    icon_position = left
+    icon_theme = "Adwaita"
+    min_icon_size = 64
+    max_icon_size = 64
+    show_age_threshold = 60
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 0
+    browser = /opt/mercury/mercury -new-tab
+
+[shortcuts]
+    close_all = mod1+space
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 5
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 5
+
+[urgency_critical]
+    background = "#253238"
+    foreground = "#FFCC00"
+    timeout = 5
