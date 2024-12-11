@@ -1,0 +1,9 @@
+xrandr &
+#xcompmgr -nC &
+xrdb -load .Xresources &
+slstatus &
+#feh --bg-fill ~/Pictures/wallpaper/GentooChan.png & # Gentoo-Chan background
+#feh --bg-scale ~/Pictures/wallpaper/gentoofuni.png &
+setxkbmap -option caps:escape &
+#exec eval $(dbus-launch --sh-syntax --exit-with-session dwm > ~/.dwm.log)
+exec dbus-launch --sh-syntax --exit-with-session dwm &> ~/.dwm.log
